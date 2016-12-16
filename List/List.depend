@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1481886848 source:c:\users\lenovo\desktop\pc\list\main.c
+	"List.h"
+	"Functions.h"
+
+1481641002 source:c:\users\lenovo\desktop\pc\list\content.c
+	"Content.h"
+
+1481886116 c:\users\lenovo\desktop\pc\list\content.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1481887400 source:c:\users\lenovo\desktop\pc\list\list.c
+	"List.h"
+
+1481887383 c:\users\lenovo\desktop\pc\list\list.h
+	"Node.h"
+
+1481639420 c:\users\lenovo\desktop\pc\list\node.h
+	"Content.h"
+
+1481639461 source:c:\users\lenovo\desktop\pc\list\node.c
+	"Node.h"
+	"ProgramFaults.h"
+
+1481638400 source:c:\users\lenovo\desktop\pc\list\programfaults.c
+	"ProgramFaults.h"
+
+1481638383 c:\users\lenovo\desktop\pc\list\programfaults.h
+	<stdio.h>
+	<stdlib.h>
+
+1481638721 source:c:\users\lenovo\desktop\pc\list\functions.c
+	"Functions.h"
+
+1481641346 c:\users\lenovo\desktop\pc\list\functions.h
+	"List.h"
+
