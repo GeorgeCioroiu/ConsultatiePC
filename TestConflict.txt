@@ -1,2 +1,4 @@
 test conflict
 adaugat rand nou
+alt rand
+
