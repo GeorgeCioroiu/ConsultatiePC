@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "carte.h"
 
 Carte* ReadCarte(FILE *nameFile, Carte *adressBook){
     fscanf(nameFile, "%d", &adressBook->id);

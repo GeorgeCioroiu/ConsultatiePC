@@ -1,3 +1,5 @@
+#include<stdio.h>
+#pragma once
 struct angajati {
     int idAngajat;
     int idLibrarie;
