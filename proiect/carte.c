@@ -22,7 +22,7 @@ void PrintCarte(FILE *nameFile, Carte book) {
 int ValoareCarti(Carte book[], int numarCarti) {
     int i, sumaStock=0;
     for (i=0;i<numarCarti;i++) {
-        sumaStock +=  book[i]->pret;
+        sumaStock +=  book[i].pret;
     }
     return sumaStock;
 }
