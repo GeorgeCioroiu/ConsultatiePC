@@ -2,8 +2,8 @@
 
 typedef struct {
     int id;
-    char *nume;
-    char *locatie;
+    char nume[50];
+    char locatie[150];
     int numarCarti;
     Carte *carte;
 } Librarie;
