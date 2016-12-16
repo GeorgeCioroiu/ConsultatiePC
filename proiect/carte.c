@@ -10,12 +10,12 @@ void ReadCarte(FILE *nameFile, Carte *adressBook){
 }
 
 void PrintCarte(FILE *nameFile, Carte book) {
-    fprintf(nameFile, "id=%d \n", book->id);
-    fprintf(nameFile, "id Autor=%d \n", book->idAutor);
-    fprintf(nameFile, "Nume=%s \n", book->nume);
-    fprintf(nameFile, "An lansare=%d \n", book->anLansare);
-    fprintf(nameFile, "Pret=%d \n", book->pret);
-    fprintf(nameFile, "Gen=%s \n", book->gen);
+    fprintf(nameFile, "id=%d \n", book.id);
+    fprintf(nameFile, "id Autor=%d \n", book.idAutor);
+    fprintf(nameFile, "Nume=%s \n", book.nume);
+    fprintf(nameFile, "An lansare=%d \n", book.anLansare);
+    fprintf(nameFile, "Pret=%d \n", book.pret);
+    fprintf(nameFile, "Gen=%s \n", book.gen);
 }
 
 int ValoareCarti(Carte book[], int numarCarti) {
