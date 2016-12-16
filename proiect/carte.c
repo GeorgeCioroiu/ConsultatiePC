@@ -19,3 +19,10 @@ void PrintCarte(FILE *nameFile, Carte *book) {
     fprintf(nameFile, "Gen=%s \n", book->gen);
 }
 
+int ValoareCarti(Carte book[], int numarCarti) {
+    int i, sumaStock=0;
+    for (i=0;i<numarCarti;i++) {
+        sumaStock +=  book[i]->pret;
+    }
+    return sumaStock;
+}
