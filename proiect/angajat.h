@@ -6,6 +6,6 @@ struct angajati {
 };
 typedef struct angajati om;
 
-void readAngajat(om *angajat);
+void readAngajat(FILE *inputFile, om *angajat);
 
-void printAngajat(om angajat);
+void printAngajat(FILE *outputFile, om angajat);
