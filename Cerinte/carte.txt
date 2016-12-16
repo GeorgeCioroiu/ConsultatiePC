@@ -1,0 +1,6 @@
+id
+id autor
+nume
+an lansare
+pret
+gen?
