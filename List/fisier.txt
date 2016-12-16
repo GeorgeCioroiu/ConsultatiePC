@@ -1,0 +1,11 @@
+https://github.com/GeorgeCioroiu/ConsultatiePC
+
+git clone https://github.com/GeorgeCioroiu/ConsultatiePC
+
+-------------------------------------------------------
+git stash
+git pull
+git stash apply
+git add . (sau nume fisier)
+git commit -m "mesaj ceva"
+git push -u origin master

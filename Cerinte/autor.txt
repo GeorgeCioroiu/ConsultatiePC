@@ -1,2 +1,4 @@
 id
 nume intreg
+
+void ReadAutor(FILE* fisier, autor* ref);
