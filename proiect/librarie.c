@@ -8,7 +8,7 @@ void readLibrarie(FILE *inputFile, Librarie *adressLibrarie) {
     gets((*adressLibrarie).nume);
     gets((*adressLibrarie).locatie);
     fscanf(inputFile, "%d", &((*adressLibrarie).numarCarti));
-    (*adressLibrarie).carte = (Carte *)malloc(numarCarti * sizeof(Carte));
+    *(*adressLibrarie).carte = (Carte *)malloc(numarCarti * sizeof(Carte));
     for (i = 0; i < numarCarti; i++) {
         ReadCarte(&(adressLibrarie)->carte);
     }
