@@ -12,3 +12,5 @@ typedef struct CARTE {
 Carte* ReadCarte(FILE *nameFile, Carte *adressBook);
 
 void PrintCarte(FILE *nameFile, Carte *book);
+
+int ValoareCarti(Carte book[], int numarCarti);
