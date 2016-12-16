@@ -1,6 +1,6 @@
 ///@author Grupa3
 
-#include "Functii3.h"
+#include "librarie.h"
 
 void readLibrarie(FILE *inputFile, Librarie *adressLibrarie) {
     int i;
