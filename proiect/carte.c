@@ -18,3 +18,4 @@ void PrintCarte(FILE *nameFile, Carte *book) {
     fprintf(nameFile, "Pret=%d \n", book->pret);
     fprintf(nameFile, "Gen=%s \n", book->gen);
 }
+
