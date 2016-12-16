@@ -1,5 +1,5 @@
 // Grupa 1
-
+#include<stdio.h>
 typedef struct CARTE {
     int id;
     int idAutor;

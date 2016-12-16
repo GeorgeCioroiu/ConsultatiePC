@@ -1,7 +1,27 @@
 # depslib dependency file v1.0
-1481897893 source:e:\programare\proiect_git\consultatiepc\proiect\angajat.c
+1481899431 source:e:\programare\proiect_git\consultatiepc\proiect\angajat.c
 	"angajat.h"
-
-1481898153 e:\programare\proiect_git\consultatiepc\proiect\angajat.h
 	<stdio.h>
+
+1481899431 e:\programare\proiect_git\consultatiepc\proiect\angajat.h
+	<stdio.h>
+
+1481898879 source:e:\programare\proiect_git\consultatiepc\proiect\carte.c
+	<stdio.h>
+	"carte.h"
+
+1481899530 e:\programare\proiect_git\consultatiepc\proiect\carte.h
+	<stdio.h>
+
+1481899984 source:e:\programare\proiect_git\consultatiepc\proiect\librarie.c
+	"librarie.h"
+
+1481896788 e:\programare\proiect_git\consultatiepc\proiect\librarie.h
+	"carte.h"
+
+1481900040 source:e:\programare\proiect_git\consultatiepc\proiect\main.c
+	<stdio.h>
+	<stdlib.h>
+	"angajat.h"
+	"carte.h"
 
