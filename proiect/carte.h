@@ -9,6 +9,6 @@ typedef struct CARTE {
     char *gen;
 } Carte;
 
-void ReadCarte(char *nume);
+Carte* ReadCarte(FILE *nameFile, Carte *adressBook);
 
-void PrintCarte(char *nume);
+void PrintCarte(FILE *nameFile, Carte *book);
