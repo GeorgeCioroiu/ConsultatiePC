@@ -1,19 +1,20 @@
 #include <stdio.h>
 
-Carte* ReadCarte(Carte **adressBook){
-    printf("id=");          scanf("%d", adressBook->id);
-    printf("id Autor=");    scanf("%d", adressBook->idAutor);   fflush(stdin);
-    printf("Nume=");        scanf("%s", adressBook->nume);
-    printf("An lansare=");  scanf("%d", adressBook->anLansare);
-    printf("Pret=");        scanf("%d", adressBook->pret);      fflush(stdin);
-    printf("Gen=");         scanf("%s", adressBook->gen);
+Carte* ReadCarte(FILE *nameFile, Carte *adressBook){
+    fscanf(nameFile, "%d", &adressBook->id);
+    fscanf(nameFile, "%d", &adressBook->idAutor);   fscanf(nameFile, "%s");
+    fscanf(nameFile, "%s", &adressBook->nume);
+    fscanf(nameFile, "%d", &adressBook->anLansare);
+    fscanf(nameFile, "%d", &adressBook->pret);      fscanf(nameFile, "%s");
+    fscanf(nameFile, "%s", &adressBook->gen);
+    return adressBook;
 }
 
-void PrintCarte(Carte *book) {
-    printf("id=%d \n", book->id);
-    printf("id Autor=%d \n", book->idAutor);
-    printf("Nume=%s \n", book->nume);
-    printf("An lansare=%d \n", book->anLansare);
-    printf("Pret=%d \n", book->pret);
-    printf("Gen=%s \n", book->gen);
+void PrintCarte(FILE *nameFile, Carte *book) {
+    fprintf(nameFile, "id=%d \n", book->id);
+    fprintf(nameFile, "id Autor=%d \n", book->idAutor);
+    fprintf(nameFile, "Nume=%s \n", book->nume);
+    fprintf(nameFile, "An lansare=%d \n", book->anLansare);
+    fprintf(nameFile, "Pret=%d \n", book->pret);
+    fprintf(nameFile, "Gen=%s \n", book->gen);
 }
